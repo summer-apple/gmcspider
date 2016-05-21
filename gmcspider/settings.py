@@ -65,8 +65,7 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'gmcspider.pipelines.RaspspiderPipeline': 300,
-   'gmcspider.pipelines.RaspImgPipeline': 1
+   'gmcspider.pipelines.RaspspiderPipeline': 300
 
 }
 #图片保存路径

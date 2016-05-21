@@ -13,7 +13,3 @@ class RaspSpiderItem(scrapy.Item):
     tags = scrapy.Field()
     date = scrapy.Field()
     img = scrapy.Field()
-
-class RaspImgItem(scrapy.Item):
-    image_urls = scrapy.Field()
-    images = scrapy.Field()
